@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from './assets/italian logo.png';
+import logo from './assets/spicy logo.png';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -11,7 +11,7 @@ export default function Header() {
     if (!el) return;
 
     window.scrollTo({
-      top: el.offsetTop - 80, // Moves just below the navbar
+      top: el.offsetTop - 80,
       behavior: "smooth",
     });
 
@@ -45,7 +45,7 @@ export default function Header() {
           <button onClick={() => scrollToSection("contact")} className="hover:text-red-600 duration-200">Contact</button>
 
           <a
-            href="https://wa.me/923458975571"
+            href="https://wa.me/923053442421"
             className="bg-red-600 text-white px-4 py-2 rounded-xl hover:bg-red-700 duration-200"
           >
             Order Now
@@ -66,7 +66,7 @@ export default function Header() {
           <button onClick={() => scrollToSection("contact")} className="hover:text-red-600 duration-200">Contact</button>
 
           <a
-            href="https://wa.me/923458975571"
+            href="https://wa.me/923053442421"
             className="bg-red-600 text-white px-4 py-2 rounded-xl text-center hover:bg-red-700 duration-200"
           >
             Order Now

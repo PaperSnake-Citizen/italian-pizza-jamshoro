@@ -1,4 +1,4 @@
-import logo from './assets/italian logo.png';
+import logo from './assets/spicy logo.png';
 
 export default function Footer() {
   return (
@@ -16,7 +16,7 @@ export default function Footer() {
             alt="Italian Pizza Logo"
           />
           <h1 className="text-2xl font-bold text-red-600">
-            Italian Pizza Jamshoro
+            Spicy Restaurant Jamshoro
           </h1>
         </div>
 
@@ -30,7 +30,7 @@ export default function Footer() {
 
         {/* COPYRIGHT */}
         <p className="text-sm text-gray-400 mt-4 md:mt-0">
-          &copy; {new Date().getFullYear()} Italian Pizza Jamshoro. All rights reserved.
+          &copy; {new Date().getFullYear()} Spicy Restaurant Jamshoro. All rights reserved.
         </p>
 
       </div>

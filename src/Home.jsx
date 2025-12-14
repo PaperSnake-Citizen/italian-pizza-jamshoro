@@ -26,7 +26,7 @@ export default function Home() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="https://wa.me/923458975571"
+                href="https://wa.me/923053442421"
                 className="bg-red-600 px-6 py-3 rounded-xl text-lg font-semibold hover:bg-red-700 duration-200"
               >
                 Order Now
@@ -99,11 +99,11 @@ export default function Home() {
               About <span className="text-red-600">Us</span>
             </h2>
             <p className="text-gray-600 mt-4 leading-relaxed">
-              We are passionate pizza makers delivering fresh, hot, and delicious
-              pizzas prepared with authentic techniques and premium
+              We are passionate fast food makers delivering fresh, hot, and delicious
+              fast food prepared with authentic techniques and premium
               ingredients.  
               <br /> <br />
-              Our mission is simple — **serve the best pizza in town, every time.**
+              Our mission is simple — **serve the best fast food in town, every time.**
             </p>
 
             <a
@@ -126,7 +126,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://wa.me/923458975571"
+            href="https://wa.me/923053442421"
             className="inline-block mt-8 bg-red-600 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-red-700 duration-200"
           >
             Message on WhatsApp
