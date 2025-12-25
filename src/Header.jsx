@@ -30,16 +30,16 @@ export default function Header() {
           <img 
             src={logo} 
             className="w-19 h-12 object-contain"
-            alt="Italian Pizza Logo"
+            alt="Spicy Restaurant Logo"
           />
           <h1 className="text-2xl font-bold text-red-600">
-            Italian Pizza Jamshoro
+            Spicy Restaurant Jamshoro
           </h1>
         </div>
 
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex gap-8 text-gray-700 font-medium">
+        <nav className="hidden md:flex gap-8 text-gray-200 font-medium">
           <button onClick={() => scrollToSection("menu")} className="hover:text-red-600 duration-200">Menu</button>
           <button onClick={() => scrollToSection("about")} className="hover:text-red-600 duration-200">About</button>
           <button onClick={() => scrollToSection("contact")} className="hover:text-red-600 duration-200">Contact</button>

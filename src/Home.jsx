@@ -15,13 +15,12 @@ export default function Home() {
         <div className="w-full bg-black/50 py-20">
           <div className="max-w-6xl mx-auto text-white px-6">
             <h1 className="text-4xl sm:text-6xl font-extrabold leading-tight drop-shadow-xl">
-              Freshly Baked <span className="text-red-500">Italian Pizzas</span>
+              Freshly Made <span className="text-red-500">Fast Food</span>
               <br /> Delivered Hot & Fast
             </h1>
 
             <p className="mt-6 text-lg sm:text-xl max-w-xl text-gray-200">
-              Crispy crust, fresh toppings, premium cheese — experience the true
-              taste of Italy delivered right to your doorstep.
+              Fresh flavors, fast service, and food you’ll crave — order now and enjoy.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
